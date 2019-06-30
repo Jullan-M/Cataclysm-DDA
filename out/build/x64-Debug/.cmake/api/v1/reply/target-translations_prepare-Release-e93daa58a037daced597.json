@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"lang/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "translations_prepare::@70857b9815edabdbe926",
+	"name" : "translations_prepare",
+	"paths" : 
+	{
+		"build" : "lang",
+		"source" : "lang"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

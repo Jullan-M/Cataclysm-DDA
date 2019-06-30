@@ -1,0 +1,312 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/cataclysm-tiles.exe"
+		},
+		{
+			"path" : "src/cataclysm-tiles.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"ADD_EXECUTABLE",
+			"target_link_libraries",
+			"ADD_DEFINITIONS",
+			"add_definitions"
+		],
+		"files" : 
+		[
+			"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"src/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 316,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 55,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 336,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 193,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 281,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 340,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 215,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BACKTRACE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "GIT_VERSION"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LOCALIZE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "RELEASE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SDL_SOUND"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "TILES"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "USE_HOME_DIR"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_AMD64_"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/jmihk/source/repos/Cataclysm-DDA/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/GnuWin32/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2-2.0.9/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2_image-2.0.4/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2_ttf-2.0.15/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2_mixer-2.0.4/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BACKTRACE"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "GIT_VERSION"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "LOCALIZE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "RELEASE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SDL_SOUND"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "TILES"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "USE_HOME_DIR"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "_AMD64_"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/jmihk/source/repos/Cataclysm-DDA/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/GnuWin32/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2-2.0.9/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2_image-2.0.4/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2_ttf-2.0.15/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/libs/SDL2_mixer-2.0.4/include"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "libcataclysm-tiles::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "cataclysm-tiles::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "libcataclysm-tiles.lib C:\\libs\\GnuWin32\\lib\\libintl.lib C:\\libs\\GnuWin32\\lib\\libiconv.lib C:\\libs\\SDL2-2.0.9\\lib\\x64\\SDL2.lib C:\\libs\\SDL2_image-2.0.4\\lib\\x64\\SDL2_image.lib C:\\libs\\SDL2_ttf-2.0.15\\lib\\x64\\SDL2_ttf.lib C:\\libs\\SDL2_mixer-2.0.4\\lib\\x64\\SDL2_mixer.lib gdi32.lib winmm.lib imm32.lib ole32.lib oleaut32.lib version.lib dbghelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "cataclysm-tiles",
+	"nameOnDisk" : "cataclysm-tiles.exe",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/resource.rc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

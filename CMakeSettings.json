@@ -1,0 +1,133 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CURSES_CURSES_H_PATH",
+          "value": "C:/libs/PDCurses-3.8",
+          "type": "PATH"
+        },
+        {
+          "name": "CURSES_HAVE_CURSES_H",
+          "value": "C:/libs/PDCurses-3.8/curses.h",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CURSES_FORM_LIBRARY",
+          "value": "C:/libs/PDCurses-3.8/wincon/pdcurses.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CURSES_LIBRARY",
+          "value": "C:/libs/PDCurses-3.8/wincon/pdcurses.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CURSES_INCLUDE_PATH",
+          "value": "C:/libs/PDCurses-3.8/curses.h",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "LIBINTL_INCLUDE_DIR",
+          "value": "C:/libs/GnuWin32/include",
+          "type": "PATH"
+        },
+        {
+          "name": "LIBINTL_LIBRARIES",
+          "value": "C:/libs/GnuWin32/lib/libintl.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "ICONV_INCLUDE_DIR",
+          "value": "C:/libs/GnuWin32/include",
+          "type": "PATH"
+        },
+        {
+          "name": "ICONV_LIBRARIES",
+          "value": "C:/libs/GnuWin32/lib/libiconv.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "GETTEXT_MSGFMT_EXECUTABLE",
+          "value": "C:/libs/GnuWin32/bin/msgfmt.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "GETTEXT_MSGMERGE_EXECUTABLE",
+          "value": "C:/libs/GnuWin32/bin/msgmerge.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "SOUND",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "TILES",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "SDL2_INCLUDE_DIR",
+          "value": "C:/libs/SDL2-2.0.9/include",
+          "type": "PATH"
+        },
+        {
+          "name": "SDL2MAIN_LIBRARY",
+          "value": "C:/libs/SDL2-2.0.9/lib/x64/SDL2main.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "SDL2_LIBRARY_TEMP",
+          "value": "C:/libs/SDL2-2.0.9/lib/x64/SDL2test.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "SDL2_TTF_INCLUDE_DIR",
+          "value": "C:/libs/SDL2_ttf-2.0.15/include",
+          "type": "PATH"
+        },
+        {
+          "name": "SDL2_TTF_LIBRARY",
+          "value": "C:/libs/SDL2_ttf-2.0.15/lib/x64/SDL2_ttf.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "SDL2_IMAGE_INCLUDE_DIR",
+          "value": "C:/libs/SDL2_image-2.0.4/include",
+          "type": "PATH"
+        },
+        {
+          "name": "SDL2_IMAGE_LIBRARY",
+          "value": "C:/libs/SDL2_image-2.0.4/lib/x64/SDL2_image.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "SDL2_MIXER_INCLUDE_DIR",
+          "value": "C:/libs/SDL2_mixer-2.0.4/include",
+          "type": "PATH"
+        },
+        {
+          "name": "SDL2_MIXER_LIBRARY",
+          "value": "C:/libs/SDL2_mixer-2.0.4/lib/x64/SDL2_mixer.lib",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "SDL2_LIBRARY",
+          "value": "C:/libs/SDL2-2.0.9/lib/x64/SDL2.lib",
+          "type": "STRING"
+        }
+      ],
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ]
+}
